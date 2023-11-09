@@ -1,0 +1,109 @@
+/*Inline CSS overrides every other rules unless "!important" is specified*/
+
+
+
+/*Universal selector
+Universal selector has the lowest specificity 0*/
+*{
+     color:red;
+}
+
+/* ID selector
+Id selector has 100 points of specificity and it 
+comes after Inline styling  
+No other tag must be inside the selected tag
+if the element has other tags then they will be unchange
+and will have no impact of styling*/
+#span{
+     color:black;
+}
+
+/* Element selector has lowest specificity which is just 1 step
+above from universal selector. beacuse Id for previous span
+tag is given, that's why this element selector could not perfom
+the style to that element but when we create another span tag, 
+it will show the changes. */
+span{
+     color:blueviolet;
+}
+
+
+/* Class selector has moderate specificity (10) but in this case 
+Id for the same tag is given that's why Id selector will perform
+styling not class */
+.spanclass{
+     color:blue;
+}
+/* but if we give class to that tag which do not have ID. 
+Look I have already given style to span tag and if I do changes 
+using class, then class selecter will override the rules of the
+element selector.  */
+.newspan{
+     color:goldenrod;
+}
+
+
+/* Descendent selector 
+It can override the rules for Id, elements and classes. 
+If you shift that selector code to upward then it will still
+works no matter what the position of other selector are. */
+div span{
+     /*it means inside div element, there is a span tag
+     apply stlying to those elements
+     It will still work even if the span tag is not directly 
+     in to the div tag*/
+     background-color: greenyellow;
+}
+
+
+/* Child selector
+one condition for child selector is that the child element
+must be directly in, it do not support multi level child element */
+div>p{
+     /* The last second line of the output is the child element
+     of div, that's why the rules applied to that tag but not 
+     on the 3rd line of the output, because it is not directly 
+     inside to div tag. */
+     color:orange;
+}
+
+
+/* Group selector
+we can give same styling to multiple elements just make sure that
+you use names according to rules, means if you want to give same
+styling to id and class use '#' for id and '.'(period) for classes
+seperated by commas */
+p,article,.newspan{
+     /*it is important to note that last 2nd element was also inside
+     p tag but still it did not show black color of the text.
+     This is because we give rules to p tag using child selector
+     before, that's why. */
+     color:black;
+}
+
+
+/* Pseudo Selector
+0 specificity well it works well in link. I will show you  */
+p:first-child{
+     /* This CSS rule targets the first child of its parent element
+     if it is a p element and applies a background color of black to
+     it. In other words, any p element that is the first child of its 
+     parent will have a black background according to this rule. */
+     background-color: lightcoral;
+}
+/* here ar some example for pseudo selector for a link */
+a:link{
+     /*rest position of the link or when link is unclicked*/
+     color:black;
+}
+a:hover{
+     /*when we move our cursor over it*/
+     color:red;
+}
+a:visited{
+     /*when we have visited the link already*/
+     color:blue;
+}
+
+
+
