@@ -1,0 +1,22 @@
+
+*{
+     font-family: 'Poppins', sans-serif;
+}
+h2{
+     color:red;
+     
+}
+
+.first,.name,.english,.hindi,.math,.ss,.comp,.total,.percent,.result{
+     border:1px solid black;
+     text-align: center;
+     padding: 10px;
+     width:auto;
+    
+     
+}
+.name{
+     text-align: left;
+}
+
+
