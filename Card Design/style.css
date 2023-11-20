@@ -42,19 +42,23 @@ p {
 }
 
 .button {
-     width: 80px;
+     /* width: 80px;
      height: 25px;
      position: relative;
      left: 35%;
-     top: 4%;
-     border-radius: 15px;
-     background-color: lightblue;
-
+     top: 4%; */
+     /* border-radius: 15px;
+     background-color: lightblue; */
+     padding-top: 12px;;
+text-align: center;
 }
-
-.visit {
+.button button{
+     border-radius: 15px;
+     padding:10px 15px;
+     background-color: lightblue;
+     border:none;
      color: blue;
-     font-weight: 500;
+     margin:3px;
+     font-weight: bold;
      font-size: x-small;
-     text-align: center;
 }
