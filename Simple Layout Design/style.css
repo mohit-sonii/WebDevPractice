@@ -10,7 +10,6 @@
 header,
 ol {
      background-color: antiquewhite;
-     position: sticky;
      display: flex;
      justify-content: center;
 
@@ -18,7 +17,6 @@ ol {
 
 header {
      position: sticky;
-     z-index: 10;
      top: 0%
 }
 
