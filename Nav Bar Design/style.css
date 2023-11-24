@@ -13,12 +13,12 @@ li {
      list-style-type: none;
 }
 
-.nav,
+nav,
 ol {
      display: flex;
 }
 
-.nav {
+nav {
      width: fit-content;
      padding-left: 50px;
      height: 72px;
