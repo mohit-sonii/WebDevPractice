@@ -1,72 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
 
-:root{
-     --fontfam:'Inter', sans-serif;
-     --bgcolor:#fff;
-     --textcol:#2a282f;
+:root {
+     --fontfam: 'Inter', sans-serif;
+     --bgcolor: #fff;
+     --textcol: #2a282f;
 }
-*{
+
+* {
      font-family: var(--fontfam);
 }
-body{
-     background-color:#2a282f;
+
+body {
+     background-color: #2a282f;
 }
-.card{
-     width:360px;
-     height:450px;
+
+.card {
+     width: 360px;
+     height: 450px;
      border-radius: 12px;
      background-color: var(--bgcolor);
 }
-.container img{
-     width:100%;
-     position: relative;     
+
+.container img {
+     width: 100%;
+     position: relative;
      border-radius: 12px 12px 0 0;
 }
-.container .time{
-     position:absolute;
-left:22px;
-     top:22px;
-     width:max-content;
+
+.container .time {
+     position: absolute;
+     left: 22px;
+     top: 22px;
+     width: max-content;
      background-color: var(--textcol);
-     color:var(--bgcolor);
-     padding:4px 6px;
+     color: var(--bgcolor);
+     padding: 4px 6px;
      border-radius: 4px;
      font-size: 13px;
-     font-weight: 300;;
-} 
-.main{
-     padding:16px;
+     font-weight: 300;
+     ;
 }
-.text p{
-     color:var(--textcol);
+
+.main {
+     padding: 16px;
+}
+
+.text p {
+     color: var(--textcol);
      padding-bottom: 8px;
-     margin:0;
+     margin: 0;
 }
-.text .first{
+
+.text .first {
      font-weight: 600;
      font-size: 24px;
 }
-.text .second{
+
+.text .second {
      font-weight: 400;
      font-size: 16px;
-     color:#625F68;
+     color: #625F68;
 }
-.text .third{
+
+.text .third {
      font-weight: 400;
      font-size: 14px;
-     color:#A8A6AC;
+     color: #A8A6AC;
 }
-.footer{
+
+.footer {
      padding-top: 16px;
-     display:flex;
+     display: flex;
      justify-content: space-between;
      align-items: center;
 }
-.footer .image1{
-     width:80px;
-     height:20px;
+
+.footer .image1 {
+     width: 80px;
+     height: 20px;
 }
-.footer .image2{
+
+.footer .image2 {
      width: 16px;
-     height:20px;
+     height: 20px;
 }
