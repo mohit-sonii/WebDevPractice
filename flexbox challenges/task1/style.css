@@ -1,0 +1,22 @@
+nav {
+     width: 50vw;
+}
+
+nav ul {
+     display: flex;
+     justify-content: space-between;
+}
+
+a {
+     text-decoration: none;
+     color: white;
+     background-color: rgb(116, 116, 196);
+     padding: 10px;
+     font-weight: 400;
+     border-radius: 4px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+li {
+     list-style-type: none;
+}
