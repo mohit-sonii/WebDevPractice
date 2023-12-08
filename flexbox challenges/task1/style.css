@@ -1,13 +1,13 @@
 nav {
-     width: 50vw;
+     width: 40vw;
 }
 
-nav ul {
+nav .first {
      display: flex;
      justify-content: space-between;
 }
 
-a {
+a,.second li,.third li, .forth li{
      text-decoration: none;
      color: white;
      background-color: rgb(116, 116, 196);
@@ -19,4 +19,17 @@ a {
 
 li {
      list-style-type: none;
+}
+.second{
+     padding:10px 0;
+     display: flex;
+     gap:20px;
+     justify-content: space-around;
+}
+.third li{
+     text-align: end;
+}
+.forth{
+     display:flex;
+     justify-content: center;
 }
