@@ -68,9 +68,4 @@
      background-color: rgb(209, 30, 140);
 }
 
-.background{
-     background : color image repeat attachment position ;
-     /*it's okay if you forget to add any one property in
-     this shorthand. As long as other ones are in order*/
-}
 
