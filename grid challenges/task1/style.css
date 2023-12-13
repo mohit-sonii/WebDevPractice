@@ -1,0 +1,76 @@
+* {
+     border-radius: 5px;
+}
+
+.container {
+     width: 70%;
+     padding: 2%;
+     height: 70%;
+     background-color: rgb(170, 157, 240);
+     display: grid;
+     gap: 2%;
+     grid-template-columns: 18% 60% 18%;
+     grid-template-areas: "one two three";
+}
+
+.first {
+     grid-area: one;
+     width: 100%;
+     height: 100%;
+     background-color: rgb(204, 129, 38);
+}
+
+.second {
+     grid-area: two;
+     display: grid;
+     row-gap: 5%;
+     grid-template-rows: 35% 60%;
+}
+
+.rectangle {
+     background-color: rgb(245, 112, 112);
+}
+
+.fourinone {
+     display: grid;
+     gap: 4%;
+     grid-template-columns: 48% 48%;
+}
+
+.fourinone * {
+     background-color: rgb(24, 115, 138);
+}
+
+.box2 {
+     background-color: rgb(33, 13, 143);
+}
+
+.box3 {
+     background-color: rgb(75, 22, 119);
+}
+
+.box4 {
+     background-color: rgb(88, 153, 24);
+}
+
+.third {
+     grid-area: three;
+     display: grid;
+     gap: 5%;
+     grid-template-rows: 35% 60%;
+}
+
+.square {
+     background-color: rgb(136, 128, 15);
+}
+
+.long {
+     background-color: rgb(209, 30, 140);
+}
+
+.background{
+     background : color image repeat attachment position ;
+     /*it's okay if you forget to add any one property in
+     this shorthand. As long as other ones are in order*/
+}
+
