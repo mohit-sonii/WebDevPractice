@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+
+* {
+     font-family: 'Inter', sans-serif;
+}
+
+.main {
+     display: flex;
+     flex-direction: column;
+     width: 350px;
+     min-height: 300px;
+     border-radius: 12px;
+     padding: 0 18px;
+     background-color: #7949FF;
+}
+
+header {
+     width: 100%;
+     margin-top: 24px;
+     gap: 10%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+header .text {
+     font-size: 24px;
+     font-weight: 600;
+     color: #fff;
+     gap: 0;
+}
+
+.dots {
+     align-self: flex-start;
+     color: #fff;
+}
+
+section {
+     width: 100%;
+     padding: 24px 0;
+     height: 100px;
+     align-items: center;
+     position: relative;
+     display: flex;
+     flex-wrap: wrap;
+}
+
+section img {
+     width: 64px;
+     position: absolute;
+     height: 64px;
+}
+
+section .circle {
+     width: 64px;
+     display: flex;
+     justify-content: center;
+     height: 64px;
+     font-weight: 600;
+     position: absolute;
+     border-radius: 50%;
+     color: black;
+     background-color: #fff;
+     font-size: 14px;
+     text-align: center;
+     align-items: center;
+}
+
+.two {
+     left: 50px;
+     z-index: 1;
+}
+
+.three {
+     left: 100px;
+     z-index: 2;
+}
+
+.four {
+     left: 150px;
+     z-index: 3;
+}
+
+.five {
+     left: 200px;
+     z-index: 4;
+}
+
+footer {
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+     justify-content: space-between;
+
+}
+
+footer .time {
+     color: white;
+     font-size: 13px;
+
+}
+
+button {
+     display: flex;
+     gap: 10%;
+     text-align: center;
+     padding: 12px 20px;
+     background-color: #2A282F;
+     color: white;
+     border: none;
+     border-radius: 8px;
+}
